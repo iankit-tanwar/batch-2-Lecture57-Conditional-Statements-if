@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>batch 2 Lecture57 Conditional Statements if</title>
+
+    <style>
+
+    </style>
+
+    <script>
+
+    </script>
+</head>
+
+<body>
+
+
+
+    <script>
+
+
+
+        // The youngster whose age is greather than 18 can vote
+        /*
+                Multiline comment 
+
+                if (condition){
+                    // statements
+                }
+        */
+
+        //if condition operator
+        // also using greater than or equal to comparision operator
+        let youngsterAge = 18;
+        if (youngsterAge >= 18) {
+            alert('You can vote');
+        }
+
+        let girlAge = 15;
+
+        if (girlAge >= 18) {  // block
+            window.alert('you can marry');
+
+        } else {
+
+            window.alert('you can\'t marry');
+        }
+
+        let youStudyTime = 13;
+        // || Logical or Operator           && Locial AND operator
+        // false || false = false           false && false = false
+        // false || true = true             false && true = false
+        // true || false = true             true && false = false
+        // true || true = true              true && true = true
+
+        if (youStudyTime >= 10 && youStudyTime <= 12) {
+            window.alert("you have to study HTML");
+        } else if (youStudyTime >= 12 && youStudyTime <= 14) {
+            alert('you have to study CSS');
+        } else if (youStudyTime >= 14 && youStudyTime <= 16) {
+            alert('you have to study JS');
+        } else ("go to the bed")
+
+    </script>
+</body>
+
+</html>
